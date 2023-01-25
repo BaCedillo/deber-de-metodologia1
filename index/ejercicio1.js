@@ -1,17 +1,7 @@
-const username= "admin"
-const password= "s3cr3t"
-const ingresado=prompt ("Ingresar usuario");
-if(username==ingresado){
-    alert("Usuario valido");
-    ingresado=prompt("Ingresar contraseña");
-    if(password==ingresado){
-        alert("Contraseña correcta");
-    }
-    else{
-        alert("Contraseña incorecta")
+let array= [3,4,6,7,8,9,5,4,2,2,4];
+let contar= 0;
 
+for (let i=0; i<array.length; i++) {
+    contar++;
 }
-}
-else{
-    alert("Usuario incorrecto")
-}
+console.log(contar);
